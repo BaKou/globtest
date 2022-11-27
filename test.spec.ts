@@ -9,7 +9,7 @@ describe('foo test suite', () => {
     test('should return interval element error', () => {
         expect(() => {
             foo([[5, 0], [3, 10]]);
-        }).toThrow('element 0 of interval can t be superior of element 1 of interval');
+        }).toThrow('element 0 of interval can\'t be superior of element 1 of interval');
     });
     
     test('should return wrong number error', () => {
